@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>D3 Teknik Informatika</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="assets/images/amikom.png" />
+    <!-- Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+      rel="stylesheet"
+    />
+    <!-- Required Fremwork -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- themify-icons line icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/icon/themify-icons/themify-icons.css"
+    />
+    <!-- ico font -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/icon/icofont/css/icofont.css"
+    />
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/jquery.mCustomScrollbar.css"
+    />
+    
+  </head>
+
+  <body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+      <div class="ball-scale">
+        <div class="contain">
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+          <div class="ring">
+            <div class="frame"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+      <div class="pcoded-container navbar-wrapper">
+        <nav class="navbar header-navbar pcoded-header">
+          <div class="navbar-wrapper">
+            <div class="navbar-logo">
+              <a class="mobile-menu" id="mobile-collapse" href="#!">
+                <i class="ti-menu"></i>
+              </a>
+              <a href="index.html">
+                <img
+                  class="img-fluid"
+                  src="assets/images/amikom.png"
+                  alt="Theme-Logo"
+                />
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div class="pcoded-main-container">
+          <div class="pcoded-wrapper">
+            <nav class="pcoded-navbar">
+              <div class="sidebar_toggle">
+                <a href="#"><i class="icon-close icons"></i></a>
+              </div>
+              <div
+                class="pcoded-navigatio-lavel"
+                data-i18n="nav.category.navigation"
+              >
+                Halaman
+              </div>
+              <ul class="pcoded-item pcoded-left-item">
+                <li class="active">
+                  <a href="index.html">
+                    <span class="pcoded-micon"
+                      ><i class="ti-home"></i><b></b
+                    ></span>
+                    <span class="pcoded-mtext" data-i18n="nav.dash.main"
+                      >Dashboard</span
+                    >
+                    <span class="pcoded-mcaret"></span>
+                  </a>
+                </li>
+                <li class="pcoded-hasmenu">
+                  <a href="javascript:void(0)">
+                    <span class="pcoded-micon"
+                      ><i class="ti-layout-grid2-alt"></i
+                    ></span>
+                    <span
+                      class="pcoded-mtext"
+                      z
+                      data-i18n="nav.basic-components.main"
+                      >RPS</span
+                    >
+                    <span class="pcoded-mcaret"></span>
+                  </a>
+                  <ul class="pcoded-submenu">
+                    <li class=" ">
+                      <a href="semester-2.html">
+                        <span class="pcoded-micon"
+                          ><i class="ti-angle-right"></i
+                        ></span>
+                        <span
+                          class="pcoded-mtext"
+                          data-i18n="nav.basic-components.alert"
+                          >Semester 2</span
+                        >
+                        <span class="pcoded-mcaret"></span>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="semester-3.html">
+                        <span class="pcoded-micon"
+                          ><i class="ti-angle-right"></i
+                        ></span>
+                        <span
+                          class="pcoded-mtext"
+                          data-i18n="nav.basic-components.breadcrumbs"
+                          >Semester 3</span
+                        >
+                        <span class="pcoded-mcaret"></span>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="semester-4.html">
+                        <span class="pcoded-micon"
+                          ><i class="ti-angle-right"></i
+                        ></span>
+                        <span
+                          class="pcoded-mtext"
+                          data-i18n="nav.basic-components.alert"
+                          >Semester 4</span
+                        >
+                        <span class="pcoded-mcaret"></span>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="semester-5.html">
+                        <span class="pcoded-micon"
+                          ><i class="ti-angle-right"></i
+                        ></span>
+                        <span
+                          class="pcoded-mtext"
+                          data-i18n="nav.basic-components.breadcrumbs"
+                          >Semester 5</span
+                        >
+                        <span class="pcoded-mcaret"></span>
+                      </a>
+                    </li>
+                    <li class=" ">
+                      <a href="semester-6.html">
+                        <span class="pcoded-micon"
+                          ><i class="ti-angle-right"></i
+                        ></span>
+                        <span
+                          class="pcoded-mtext"
+                          data-i18n="nav.basic-components.alert"
+                          >Semester 6</span
+                        >
+                        <span class="pcoded-mcaret"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                class="pcoded-navigatio-lavel"
+                data-i18n="nav.category.other"
+              >
+                Other
+              </div>
+                  <ul class="pcoded-item pcoded-left-item">
+                    <li class="">
+                      <a href="prestasi.html">
+                          <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                          <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Prestasi Kami</span>
+                          <span class="pcoded-mcaret"></span>
+                      </a>
+                  </li>
+                        <li>
+                          <a href="login.html">
+                              <span class="pcoded-micon"><i class="ti-layers"></i><b></b></span>
+                              <span class="pcoded-mtext" data-i18n="nav.form-components.main">Logout</span>
+                              <span class="pcoded-mcaret"></span>
+                          </a>
+                        </li>  
+                   </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Default box -->
+    <hr><hr>
+    <hr><hr>
+    <hr>
+    <section class="content">
+      <div class="card card-solid">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="col-12">
+                <img src="assets/images/bg.jpg" class="sejarah-image" alt="Product Image">
+              </div>
+              
+            </div>
+            <div class="col-12 col-sm-6">
+              <h3 class="my-3">Universitas Amikom Yogyakarta</h3>
+              <p>Jl. Padjajaran, Ring Road Utara, Kel. Condongcatur, Kec. Depok, Kab. Sleman, Prop. Daerah Istimewa Yogyakarta 55283.</p>
+              <!--google maps di general html-->
+            <div
+            style="
+              max-width: 100%;
+              max-height: 100%;
+              overflow: hidden;
+              color: red;
+              width: 450px;
+              height: 400px;
+            "
+          >
+            <div
+              id="embedmap-canvas"
+              style="height: 100%; width: 100%; max-width: 100%"
+            >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2818402780804!2d110.4090461!3d-7.7599048999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a599bd3bdc4ef%3A0x6f1714b0c4544586!2sUniversitas%20Amikom%20Yogyakarta!5e0!3m2!1sid!2sid!4v1684339878946!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <style>
+              #embedmap-canvas img {
+                max-width: none !important;
+                background: none !important;
+                font-size: inherit;
+                font-weight: inherit;
+              }
+            </style>
+          </div>
+          </div>
+          <div class="row mt-4">
+            <nav class="w-100">
+              <div class="nav nav-tabs" id="sejarah-tab" role="tablist">
+                <a class="nav-item nav-link active" id="sejarah-desc-tab" data-toggle="tab" href="#sejarah-desc" role="tab" aria-controls="sejarah-desc" aria-selected="true">Visi dan Misi</a>
+                <a class="nav-item nav-link" id="sejarah-comments-tab" data-toggle="tab" href="#sejarah-comments" role="tab" aria-controls="sejarah-comments" aria-selected="false">Sejarah</a>
+                <a class="nav-item nav-link" id="sejarah-rating-tab" data-toggle="tab" href="#sejarah-rating" role="tab" aria-controls="sejarah-rating" aria-selected="false">Prestasi</a>
+              </div>
+            </nav>
+            <div class="tab-content p-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="sejarah-desc" role="tabpanel" aria-labelledby="sejarah-desc-tab"> VISI : 
+                Universitas Amikom Yogyakarta adalah menjadi perguruan tinggi unggulan dunia dalam bidang ekonomi kreatif yang berbasis kewirausahaan yang menebar kebajikan
+                Perguruan tinggi unggulan dunia merupakan perguruan tinggi yang masuk daftar 750 perguruan tinggi yang dikeluarkan oleh QS Ranking pada 2025 dan Perguruan tinggi unggulan dunia merupakan perguruan tinggi yang masuk daftar 500 perguruan tinggi yang dikeluarkan oleh QS Ranking pada 2030.
+                . <hr>
+                MISI :
+                Universitas Amikom Yogyakarta memiliki misi :
+                Menyelenggarakan pendidikan tinggi kelas dunia di bidang ekonomi kreatif berbasis kewirausahaan.
+                Melaksanakan penelitian dalam bidang ekonomi kreatif berkualitas dunia yang dapat berperan meningkatkan daya saing nasional.
+                Menyelenggarakan layanan pengabdian kepada masyarakat secara profesional dalam rangka ikut memecahkan persoalan dunia maupun nasional, terutama dalam bidang ekonomi kreatif.
+                Menyelenggarakan pendidikan berstandar global melalui kemitraan dan jejaring nasional, regional maupun global.
+                Mengembangkan pusat ekonomi kreatif dan pusat kewirausahaan yang bermanfaat baik nasional, regional maupun global. </div>
+              <div class="tab-pane fade" id="sejarah-comments" role="tabpanel" aria-labelledby="sejarah-comments-tab"> Universitas Amikom Yogyakarta merupakan perubahan dari Sekolah Tinggi Manajemen Informatika dan Komputer Amikom Yogyakarta. Sebelumnya Sekolah Tinggi Manajemen Informatika dan Komputer Amikom Yogyakarta, merupakan perubahan dari Akademi Manajemen Informatika dan Komputer Amikom Yogyakarta yang mendapatkan status terdaftar berdasarkan Surat Keputusan Menteri Pendidikan dan Kebudayaan Republik Indonesia No. 084/D/O/1994 tanggal 11 Oktober 1994. Perubahan bentuk ini dilakukan untuk mempermudah mencapai visinya sebagai perguruan tinggi unggulan dunia dalam bidang ekonomi kreatif berbasis entrepreneurship. </div>
+              <div class="tab-pane fade" id="sejarah-rating" role="tabpanel" aria-labelledby="sejarah-rating-tab">  Universitas Amikom Yogyakarta juga telah meraih 80 penghargaan internasional dan lebih dari 210 penghargaan nasional serta menghasilkan 24% lulusannya sebagai pengusaha (Business Placement Center AMIKOM, 2014). Perguruan Tinggi telah terakreditasi institusi B dan telah mendapatkan sertifikasi ISO 2009. </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.card-body -->
+      </div>
+      <!-- /.card -->
+
+    </section>
+    <!-- /.content -->
+    <script
+      type="text/javascript"
+      src="assets/js/jquery/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery-ui/jquery-ui.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/popper.js/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/js/bootstrap/js/bootstrap.min.js"
+    ></script>
+    <!-- jquery slimscroll js -->
+    <script
+      type="text/javascript"
+      src="assets/js/jquery-slimscroll/jquery.slimscroll.js"
+    ></script>
+    <!-- modernizr js -->
+    <script
+      type="text/javascript"
+      src="assets/js/modernizr/modernizr.js"
+    ></script>
+    <!-- am chart -->
+    <script src="assets/pages/widget/amchart/amcharts.min.js"></script>
+    <script src="assets/pages/widget/amchart/serial.min.js"></script>
+    <!-- Todo js -->
+    <script type="text/javascript " src="assets/pages/todo/todo.js "></script>
+    <!-- Custom js -->
+    <script
+      type="text/javascript"
+      src="assets/pages/dashboard/custom-dashboard.js"
+    ></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript " src="assets/js/SmoothScroll.js"></script>
+    <script src="assets/js/pcoded.min.js"></script>
+    <script src="assets/js/demo-12.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+      var $window = $(window);
+      var nav = $(".fixed-button");
+      $window.scroll(function () {
+        if ($window.scrollTop() >= 200) {
+          nav.addClass("active");
+        } else {
+          nav.removeClass("active");
+        }
+      });
+    </script>
+  </body>
+</html>
